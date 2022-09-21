@@ -65,7 +65,7 @@ public class liveloc extends FragmentActivity implements OnMapReadyCallback {
                 LatLng loc = new LatLng(Double.valueOf(s),Double.valueOf(s2)); // then into double
 
                 //plotting it on map
-                mMap.addMarker(new MarkerOptions().position(loc).title("Junaid is here"));
+                mMap.addMarker(new MarkerOptions().position(loc).title("Person is here"));
                 mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(loc,18F)); // zoom into the map
 
             }

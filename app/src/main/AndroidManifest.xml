@@ -33,7 +33,7 @@
 
         <activity
             android:name=".liveloc"
-            android:label="@string/title_activity_liveloc"></activity>
+            android:label="@string/title_activity_liveloc"/>
         <activity android:name=".splash_activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -47,7 +47,7 @@
         <activity android:name=".LocationBottomNavigation" />
         <activity android:name=".MainActivity1" />
         <activity android:name=".ResetPassword" />
-        <activity android:name=".UserRegistration" /> <!-- <activity android:name=".Splash"></activity> -->
+        <activity android:name=".UserRegistration" />
         <activity android:name=".Login" />
     </application>
 
